@@ -36,7 +36,7 @@ Com o submit do formulário, deve ser exibida uma lista com todos os produtos en
 ### O que nós esperamos do seu teste
 
 * Ver na solução a utilização de um framework / biblioteca da sua escolha e que você nos conte sobre essa escolha. Aqui na Driven nós utilizamos o React.
-* Queremos ver a utilização de dependency managers (npm, webpack etc)
+* Queremos ver a utilização de dependency managers (npm, yarn, bower etc)
 * Automação de tasks com gulp, grunt ou outra ferramenta de sua escolha
 * HTML5 escrito da maneira mais semântica possível
 * CSS3 com um pre processador de sua escolha, aqui na Driven utilizamos SASS SCSS mas gostamos do PostCSS também.
