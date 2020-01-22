@@ -12,8 +12,7 @@ Você deve desenvolver uma aplicação e interface de busca de produtos para um 
 
 A interface deve ter um input text onde os resultados vão aparecendo conforme o usuário digita o termo de busca. Em parte do resultado, você deve exibir os resultados de uma das API's (autocomplete), e em outra parte você deve efetuar outro request por Full Text em outro endpoint trazendo os 3 primeiros produtos do response.
 
-`Link para o layout:`
-http://bit.ly/driven-dev
+`Link para o layout:` [desktop](http://bit.ly/driven-dev) / [mobile](http://bit.ly/driven-dev-m)
 
 `Endpoint da API de autocomplete:` 
 http://agenciabluefoot.vtexcommercestable.com.br/buscaautocomplete/?productNameContains={{termo}}
