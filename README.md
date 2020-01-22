@@ -10,8 +10,10 @@ Crie um `fork` deste projeto, e desenvolva em cima do seu fork. Use o *README.md
 
 Você deve desenvolver uma aplicação e interface de busca de produtos para um grande ecommerce de uma multinacional no Brasil.
 
-A interface deve ser bastante semelhante a busca do [Submarino](https://www.submarino.com.br), um input text onde os resultados vão aparecendo conforme o usuário digita seu termo. Em parte do resultado, você deve exibir os resultados de uma das API's (autocomplete), e em outra parte você deve efetuar outro request por Full Text em outro endpoint trazendo os 3 primeiros produtos do response.
+A interface deve ter um input text onde os resultados vão aparecendo conforme o usuário digita o termo de busca. Em parte do resultado, você deve exibir os resultados de uma das API's (autocomplete), e em outra parte você deve efetuar outro request por Full Text em outro endpoint trazendo os 3 primeiros produtos do response.
 
+`Link para o layout:`
+http://bit.ly/driven-dev
 
 `Endpoint da API de autocomplete:` 
 http://agenciabluefoot.vtexcommercestable.com.br/buscaautocomplete/?productNameContains={{termo}}
@@ -39,31 +41,31 @@ Com o submit do formulário, deve ser exibida uma lista com todos os produtos en
 * Queremos ver a utilização de dependency managers (npm, yarn, bower etc)
 * Automação de tasks com gulp, grunt ou outra ferramenta de sua escolha
 * HTML5 escrito da maneira mais semântica possível
-* CSS3 com um pre processador de sua escolha, aqui na Driven utilizamos SASS SCSS mas gostamos do PostCSS também.
+* CSS3 com um pre processador de sua escolha, aqui na Driven utilizamos SCSS mas a escolha aqui é sua, nos conte no Readme.md
 * Layout responsivo
 
 ### O que nós ficaríamos felizes de ver em seu teste
 
-* Testes unitários
+* Testes end2end
 * Alguma metodologia para definição e organização do seu código CSS
 
 ### O que nos impressionaria
 
-* Testes de aceitação
+* Testes unitários
 * [BEM naming convention](http://getbem.com/naming/)
-* Aplicação de animações em css quando possível
-* Ver o código rodando live
+* Ver o código rodando live com deploy automatizado
 
 ### O que nós não gostaríamos
 
 * Descobrir que não foi você quem fez seu teste
-* Ver commits gigantes, sem mensagens ou com -m sem pé nem cabeça
+* Ver que você nem se esforçou para tentar terminar
+* Ver commits gigantes, com mensagens sem pé nem cabeça ou vazios
 
 
 ## O que avaliaremos de seu teste
 
 * Histórico de commits do git
-* As instruções de como rodar o projeto
+* As instruções de como rodar o projeto (seu readme.md)
 * Organização, semântica, estrutura, legibilidade, manutenibilidade, escalabilidade do seu código e suas tomadas de decisões
 * Alcance dos objetivos propostos
 * Componentização e extensibilidade dos componentes Javascript
