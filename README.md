@@ -22,10 +22,13 @@ http://agenciabluefoot.vtexcommercestable.com.br/buscaautocomplete/?productNameC
 `Endpoint da API de search full text:`
 http://agenciabluefoot.vtexcommercestable.com.br/api/catalog_system/pub/products/search/{{termo}}?map=ft
 
-Documentação completa da API de busca: [https://documenter.getpostman.com/view/845/search-103/Hs43]
+`Documentação completa da API de busca:` [https://documenter.getpostman.com/view/845/search-103/Hs43]
 
+`Alguns termos que irão retornar resultados pra você:` fone de ouvido, smartphone, smart tv, iphone
 
-Para cada um dos 3 produtos, devemos exibir dados como titulo, thumbnail, preço e outros dados que você considerar importante para a taxa de conversão (esperamos suas considerações no Readme.md lembra?)
+---
+
+Para cada um dos produtos, devemos exibir dados como titulo, thumbnail, preço e outros dados que você considerar importante para a taxa de conversão (esperamos suas considerações no Readme.md lembra?)
 
 Quando clicarmos no produto, você pode optar por dois caminhos:
 
