@@ -10,6 +10,8 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="assets/owlcarousel/owl.carousel.min.css">
   <link rel="stylesheet" href="assets/owlcarousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/easyautocomplete/easy-autocomplete.min.css">
+  <link rel="stylesheet" href="assets/easyautocomplete/easy-autocomplete.themes.min.css">
   <link rel="stylesheet" href="assets/css/custom.css">
 
   <title>DEV - Test</title>
@@ -58,9 +60,15 @@
           <div class="col-md-10 col-4">
             <div class="row">
               <div class="col-md-7 hidden-mobile">
-                <form class="busca-header" action="">
-                  <input type="text" placeholder="O que você procura hoje?" name="search">
-                  <button type="submit"><i class="fa fa-search"></i></button>
+                <form action="" autocomplete="off">
+                  <div class="busca-header">
+                    <div class="input-busca-header">
+                      <input type="text" placeholder="O que você procura hoje?" name="search" class="busca-produtos">
+                    </div>
+                    <div class="botao-busca-header">
+                      <button type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                  </div>
                 </form>
               </div>
               <div class="col-md-3 hidden-mobile align-self-center">
@@ -115,9 +123,13 @@
             </div>            
           </div>
           <div class="col-12 show-mobile">
-            <form class="busca-header" action="">
-              <input type="text" placeholder="O que você procura hoje?" name="search">
-              <button type="submit"><i class="fa fa-search"></i></button>
+            <form class="busca-header" action="" autocomplete="off">
+              <div class="input-busca-header">
+                <input type="text" placeholder="O que você procura hoje?" name="search" class="busca-produtos">
+              </div>
+              <div class="botao-busca-header">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </div>
             </form>
           </div>
         </div>
@@ -125,9 +137,12 @@
     </div>
   </header>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+  <script src="//code.jquery.com/jquery-1.11.2.min.js" crossorigin="anonymous"></script>
+  
   <script src="https://kit.fontawesome.com/e8b7039557.js" crossorigin="anonymous"></script>
   <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+  <script src="assets/easyautocomplete/jquery.easy-autocomplete.min.js"></script>
+
   <script src="assets/js/custom.js"></script>
 
 </body>

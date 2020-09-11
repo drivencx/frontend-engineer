@@ -65,6 +65,7 @@ body {
 .busca-header {
     background: #F0F0F0;
     border: 1px solid #DBDBDB;
+    height: 45px;
 }
 
 .busca-header input {
@@ -73,6 +74,15 @@ body {
     border: none;
     padding: 12px;
     font-size: 12px;
+}
+
+.input-busca-header{
+    float: left; 
+    width: 97%;
+}
+.botao-busca-header{
+    float: right; 
+    width: 2%;
 }
 
 @media(max-width:970px) {
